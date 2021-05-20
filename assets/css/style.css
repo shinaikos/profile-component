@@ -104,12 +104,13 @@ section {
     font-weight: bold;
 }
 
-@media(max-width:468px) {
+@media(max-width:600px) {
     header {
         flex-direction: column;
     }
     .header-info {
         flex-direction: column;
+        margin-top: 80px;
     }
     .header-profile {
         text-align: center;
